@@ -21,4 +21,11 @@
 * Built and ran the application using Docker Compose
 * Pushed the Dockerfile and Docker Compose configuration to GitHub
 
-**Testing Jenkins Webhook**
+**Assignment - Testing Jenkins Webhook**
+
+**Project Deliverable 4**
+
+* created the GitHub Actions workflow .github/workflows/ci-cd.yml
+* CI/CD pipeline: on every push to main, it builds the Docker image and pushes it to Docker Hub
+* deploy: the image is pushed to Docker Hub automatically (amnazahood/education:latest)
+* changelog: added the CI/CD workflow and updated the README
